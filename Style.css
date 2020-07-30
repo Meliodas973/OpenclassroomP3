@@ -1,40 +1,23 @@
 body{
     padding: 0;
     margin: 0;
-    font-family: "Titillium Web","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
 }
 
 #page{
     text-align: center;
 }
 
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
 header{
     background-color: #569C87 ;
     padding: 5px 5px 5px 5px;
     font-size: 30px;
-}
-
-.bloc-menu{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: "Devonshire","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
-}
-
-
-
-.section1{
-    flex: 2;
-}
-
-.section2{
-    flex: 2;
-}
-
-section{
-    border: solid 1px red;
-    margin: 25px;
 }
 
 h1 span{
