@@ -1,20 +1,12 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: "Titillium Web","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    font-size: 20px;
 }
 
 #page{
     text-align: center;
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    border: solid red 1px;
-}
-
-.bloc-menu{
-    border: solid blue 1px;
 }
 
 header{
@@ -22,6 +14,121 @@ header{
     padding: 5px 5px 5px 5px;
     font-size: 30px;
 }
+
+menu{
+    border: solid 1px red;
+}
+
+section{
+    border: solid blue 1px;
+}
+
+img{
+    width: 45px;
+    height: 60px;
+    padding-top: 30px;
+}
+
+.ligne1{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5px;
+}
+
+.ligne2{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5px;
+}
+
+.menu_menu1{
+    background-color: #fcdfdb;
+    font-family: "Devonshire","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    box-shadow: 0 0 13px 3px #ccc;
+    padding: 100px;
+    margin: 80px;
+}
+
+.menu_menu1 h1{
+    color: black;
+}
+
+.menu1{
+    font-family: "Balsamiq Sans","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    color: black;
+}
+
+
+
+.menu_menu2{
+    background-color: #fff5fe;
+    box-shadow: 0 0 13px 3px #ccc;
+    padding: 100px;
+    margin: 80px;
+    font-family: "Redressed","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+}
+.menu_menu2 h1{
+    color: ;
+}
+
+.menu2{
+    font-family: "Abril Fatface","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    color: #d8852e;
+}
+
+
+.menu_menu3{
+    background-color: #f9f9f9;
+    box-shadow: 0 0 13px 3px #ccc;
+    padding: 100px;
+    margin: 80px;
+    font-family: "Dancing Script","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+}
+
+.menu3{
+    font-family: "Kalam","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    color: #0431df;
+}
+
+
+.menu_menu4{
+    background-color: #fdfffd;
+    box-shadow: 0 0 13px 3px #ccc;
+    padding: 100px;
+    margin: 80px;
+    font-family: "Kaushan Script","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;  
+}
+
+.menu4{
+    font-family: "Kalam","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    color: #3d9339;
+}
+
+
+
+
+
+.grid{
+    display: flex;
+    flex-wrap: row wrap;
+    border: solid red 1px;
+}
+
+.bloc-menu_menu1{
+
+    border: solid blue 1px;
+}
+.bloc-menu_menu {
+    box-shadow: 0 0 13px 3px #ccc;
+    border: solid blue 1px;
+}
+
+
+
+
+
+
+
 
 h1 span{
     background-color: #569C87;
