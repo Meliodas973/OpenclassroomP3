@@ -11,13 +11,20 @@ body{
 
 header{
     background-color: #569C87 ;
-    padding: 0px 3px 1px 3px;
+    padding: 1px 3px 1px 3px;
     font-size: 30px;
     padding-left: 800px;
 }
 
+header h1{
+    color: #FFCA28;
+}
+
+header a{
+    text-decoration: none;
+}
+
 menu{
-    border: solid 1px red;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -27,7 +34,6 @@ menu{
 }
 
 section{
-    border: solid 1px blue;
     height: 600px;
 }
 
@@ -60,10 +66,15 @@ img{
     padding: 100px;
     margin: 80px;
     width: 100%;
+    text-decoration: none;
 }
 
 .menu_menu1 h1{
     color: black;
+}
+
+.menu_menu1 a{
+    text-decoration: none;
 }
 
 .menu1{
@@ -90,6 +101,11 @@ img{
     margin: 80px;
     font-family: "Redressed","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
     width: 100%;
+    font-weight: 100;
+    background: linear-gradient(135deg, #d7832c 0%, #a97af3 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
 }
 
 
@@ -106,6 +122,10 @@ img{
     margin: 80px;
     font-family: "Dancing Script","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
     width: 100%;
+    font-weight: 500; 
+    background: linear-gradient(to right, #3F51B5 0%, #0083fb 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .menu3{
@@ -121,6 +141,10 @@ img{
     margin: 80px;
     font-family: "Kaushan Script","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;  
     width: 100%;
+    font-weight: 500;
+    background: linear-gradient(to right, #3D923A 0%, #C2FF88 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .menu4{
@@ -137,6 +161,7 @@ h1 span{
     background-color: #569C87;
     border-radius: 15px;
     padding: 10px 35px 10px 35px;
+    color: #FFCA28;
 }
 
 footer{
@@ -147,4 +172,12 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+footer h1{
+    color: #FFCA28;
+}
+
+footer a{
+    text-decoration: none;
 }
