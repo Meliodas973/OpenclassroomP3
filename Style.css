@@ -18,10 +18,20 @@ header{
 menu{
     border: solid 1px red;
     margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 section{
-    border: solid blue 1px;
+    border: solid 1px blue;
+    height: 500px ;
+}
+
+h1{
+    width: 300px;
 }
 
 img{
@@ -33,15 +43,13 @@ img{
 .ligne1{
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding-bottom: 5px;
+    justify-content: center; 
 }
 
 .ligne2{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 5px;
 }
 
 .menu_menu1{
@@ -50,6 +58,7 @@ img{
     box-shadow: 0 0 13px 3px #ccc;
     padding: 100px;
     margin: 80px;
+    width: 100%;
 }
 
 .menu_menu1 h1{
@@ -69,6 +78,7 @@ img{
     padding: 100px;
     margin: 80px;
     font-family: "Redressed","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    width: 100%;
 }
 
 
@@ -84,6 +94,7 @@ img{
     padding: 100px;
     margin: 80px;
     font-family: "Dancing Script","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    width: 100%;
 }
 
 .menu3{
@@ -98,35 +109,13 @@ img{
     padding: 100px;
     margin: 80px;
     font-family: "Kaushan Script","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;  
+    width: 100%;
 }
 
 .menu4{
     font-family: "Kalam","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
     color: #3d9339;
 }
-
-
-
-
-
-.grid{
-    display: flex;
-    flex-wrap: row wrap;
-    border: solid red 1px;
-}
-
-.bloc-menu_menu1{
-
-    border: solid blue 1px;
-}
-.bloc-menu_menu {
-    box-shadow: 0 0 13px 3px #ccc;
-    border: solid blue 1px;
-}
-
-
-
-
 
 
 
