@@ -17,6 +17,7 @@ header{
 
 menu{
     border: solid 1px red;
+    margin: auto;
 }
 
 section{
@@ -31,13 +32,15 @@ img{
 
 .ligne1{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
     padding-bottom: 5px;
 }
 
 .ligne2{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
     padding-bottom: 5px;
 }
 
@@ -67,9 +70,7 @@ img{
     margin: 80px;
     font-family: "Redressed","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
 }
-.menu_menu2 h1{
-    color: ;
-}
+
 
 .menu2{
     font-family: "Abril Fatface","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
