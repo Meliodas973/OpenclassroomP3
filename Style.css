@@ -11,8 +11,9 @@ body{
 
 header{
     background-color: #569C87 ;
-    padding: 5px 5px 5px 5px;
+    padding: 0px 3px 1px 3px;
     font-size: 30px;
+    padding-left: 800px;
 }
 
 menu{
@@ -27,7 +28,7 @@ menu{
 
 section{
     border: solid 1px blue;
-    height: 500px ;
+    height: 600px;
 }
 
 h1{
@@ -37,7 +38,7 @@ h1{
 img{
     width: 45px;
     height: 60px;
-    padding-top: 30px;
+    padding-top: 100px;
 }
 
 .ligne1{
@@ -70,7 +71,17 @@ img{
     color: black;
 }
 
+.bloc-menu-detail2{
+    padding-top: 130px;
+}
 
+.bloc-menu-detail3{
+    padding-top: 130px;
+}
+
+.bloc-menu-detail4{
+    padding-top: 130px;
+}
 
 .menu_menu2{
     background-color: #fff5fe;
@@ -117,8 +128,10 @@ img{
     color: #3d9339;
 }
 
-
-
+article{
+    padding-left: 800px;
+    padding-bottom: 120px;
+}
 
 h1 span{
     background-color: #569C87;
@@ -131,4 +144,7 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     background-color: #569C87;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
