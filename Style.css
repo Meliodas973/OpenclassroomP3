@@ -2,17 +2,14 @@ body{
     padding: 0;
     margin: 0;
     font-family: "Titillium Web","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
-    font-size: 20px;
 }
 
-#page{
-    text-align: center;
-}
 
 header{
     background-color: #569C87 ;
     padding: 1px 3px 1px 3px;
     font-size: 30px;
+    text-align: center;
 }
 
 header h1{
@@ -26,6 +23,7 @@ header a{
 
 h2{
     font-weight: 100;
+    text-align: center;
 }
 
 menu{
@@ -35,26 +33,28 @@ menu{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 section{
     height: 600px;
 }
 
-section p{
-    font-size: 35px;
-}
 
 img{
     width: 45px;
-    height: 60px;
-    padding-top: 100px;
+    height: 50px;
+    padding-top: 30px;
 }
 
 .ligne1{
     display: flex;
     align-items: center;
     justify-content: center; 
+}
+
+.ligne1 p, .ligne2 p{
+    font-size: 35px;
 }
 
 .ligne2{
@@ -113,8 +113,6 @@ img{
     color: #d8852e;
 }
 
-
-
 .menu_menu3{
     background-color: #f9f9f9;
     box-shadow: 0 0 13px 3px #ccc;
@@ -131,7 +129,6 @@ img{
     font-family: "Kalam","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
     color: #0431df;
 }
-
 
 .menu_menu4{
     background-color: #fdfffd;
@@ -150,9 +147,10 @@ img{
     color: #3d9339;
 }
 
-article{
+.prochainement{
     display: flex;
     justify-content: center;
+    text-align: center;
     padding-bottom: 120px;
 }
 
@@ -168,8 +166,8 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     background-color: #569C87;
-    position: fixed;
-    bottom: 0;
+   /* position: fixed;
+    bottom: 0; */
     width: 100%;
 }
 
@@ -180,3 +178,71 @@ footer h2{
 footer a{
     text-decoration: none;
 }
+
+/*Page1*/ 
+
+
+.page1{
+    background-color: #fcdfdb;
+    box-shadow: 0 0 13px 3px #ccc;
+    border: solid green 1px;
+    width: 30%;
+    min-width: 300px;
+    margin: auto;
+    height: auto;
+}
+
+.page1 h4, p{
+    font-family: 'segoe print', 'Kalam', cursive;
+    color: black;
+}
+
+.la_note_enchantee{
+    font-family: "Devonshire","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    font-size: 30px;
+}
+
+.cote_gauche{
+    border: solid red 1px;
+    font-size: 12px;
+    flex: 6;
+}
+
+.cote_droite{
+    border: solid yellow 1px;
+    flex: 1;
+    text-align: end;
+    font-size: 12px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    margin: 0;
+    font-weight: 100;
+}
+
+h4{
+    border: solid blue 1px;
+    text-align: center;
+    font-size: 17px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.article1, .article2, .article3, .article4{
+    border: solid orange 1px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.la_note_enchantee{
+    text-align: center;
+}
+
