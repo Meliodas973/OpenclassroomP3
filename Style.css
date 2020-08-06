@@ -5,6 +5,7 @@ body{
 }
 
 
+
 header{
     background-color: #569C87 ;
     padding: 1px 3px 1px 3px;
@@ -163,10 +164,9 @@ h2 span{
 
 footer{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     background-color: #569C87;
-   /* position: fixed;
+/*    position: fixed;
     bottom: 0; */
     width: 100%;
 }
@@ -179,20 +179,20 @@ footer a{
     text-decoration: none;
 }
 
-/*Page1*/ 
+
+/* Page1 */ 
 
 
 .page1{
     background-color: #fcdfdb;
     box-shadow: 0 0 13px 3px #ccc;
-    border: solid green 1px;
     width: 30%;
     min-width: 300px;
     margin: auto;
     height: auto;
 }
 
-.page1 h4, p{
+.page1 h4, .page1 p{
     font-family: 'segoe print', 'Kalam', cursive;
     color: black;
 }
@@ -200,19 +200,20 @@ footer a{
 .la_note_enchantee{
     font-family: "Devonshire","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
     font-size: 30px;
+    padding-bottom: 30px;
+    padding-top: 40px;
 }
 
 .cote_gauche{
-    border: solid red 1px;
     font-size: 12px;
     flex: 6;
 }
 
 .cote_droite{
-    border: solid yellow 1px;
     flex: 1;
     text-align: end;
     font-size: 12px;
+    font-weight: bold;
 }
 
 h2{
@@ -225,7 +226,6 @@ h3{
 }
 
 h4{
-    border: solid blue 1px;
     text-align: center;
     font-size: 17px;
     margin-left: 40px;
@@ -234,7 +234,6 @@ h4{
 
 
 .article1, .article2, .article3, .article4{
-    border: solid orange 1px;
     display: flex;
     flex-direction: row;
     margin-left: 40px;
@@ -246,3 +245,101 @@ h4{
     text-align: center;
 }
 
+.sign_note{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.note{
+    padding-right: 10px;
+    margin-bottom: 50px;
+}
+
+
+/* page2 */
+
+.page2{
+    background-color: #fff5fe;
+    box-shadow: 0 0 13px 3px #ccc;
+    width: 30%;
+    min-width: 300px;
+    margin: auto;
+    height: 700px;
+}
+
+.le_chic_a_la_franaise{
+    font-family: "Redressed","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    background: linear-gradient(135deg, #d7832c 0%, #a97af3 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+.page2 h4, .page2 p{
+    font-family: "Abril Fatface","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    background: linear-gradient(135deg, #d7832c 0%, #a97af3 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+/* page3 */
+
+
+.page3{
+    background-color: #f9f9f9;
+    box-shadow: 0 0 13px 3px #ccc;
+    width: 30%;
+    min-width: 300px;
+    margin: auto;
+    height: 700px;
+}
+
+.le_delice_des_papilles{
+    font-family: "Dancing Script","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    background: linear-gradient(to right, #3F51B5 0%, #0083fb 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-bottom: 30px;
+}
+
+.page3 h4, .page3 p{
+    font-family: "Dancing Script","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    background: linear-gradient(to right, #3F51B5 0%, #0083fb 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+/* page4 */
+
+
+.page4{
+    background-color: #fdfffd;
+    box-shadow: 0 0 13px 3px #ccc;
+    width: 30%;
+    min-width: 300px;
+    margin: auto;
+    height: 700px;
+}
+
+.la_palette_du_gout{
+    font-family: "Kaushan Script","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;  
+    background: linear-gradient(to right, #3D923A 0%, #C2FF88 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+.page4 h4, .page4 p{
+    font-family: "Kaushan Script","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;  
+    background: linear-gradient(to right, #3D923A 0%, #C2FF88 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
