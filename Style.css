@@ -18,13 +18,13 @@ header h1{
     margin: auto;
 }
 
-header a{
-    text-decoration: none;
-}
-
 h2{
     font-weight: 100;
     text-align: center;
+}
+
+a{
+    text-decoration: none;
 }
 
 menu{
@@ -86,11 +86,6 @@ img{
 .menu1 h2{
     color: black;
 }
-
-.menu_menu1 a{
-    text-decoration: none;
-}
-
 
 .menu2, .menu3, .menu4{
     padding-top: 130px;
@@ -166,17 +161,13 @@ footer{
     display: flex;
     justify-content: space-around;
     background-color: #569C87;
-/*    position: fixed;
-    bottom: 0; */
+    position: fixed;
+    bottom: 0;
     width: 100%;
 }
 
 footer h2{
     color: #FFCA28;
-}
-
-footer a{
-    text-decoration: none;
 }
 
 
@@ -200,8 +191,6 @@ footer a{
 .la_note_enchantee{
     font-family: "Devonshire","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
     font-size: 30px;
-    padding-bottom: 30px;
-    padding-top: 40px;
 }
 
 .cote_gauche{
@@ -227,7 +216,7 @@ h3{
 
 h4{
     text-align: center;
-    font-size: 17px;
+    font-size: 20px;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -257,6 +246,8 @@ h4{
 .note{
     padding-right: 10px;
     margin-bottom: 50px;
+    width: 35px;
+    height: 40px;
 }
 
 
@@ -306,6 +297,7 @@ h4{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     padding-bottom: 30px;
+    padding-top: 40px;
 }
 
 .page3 h4, .page3 p{
@@ -342,4 +334,13 @@ h4{
     background: linear-gradient(to right, #3D923A 0%, #C2FF88 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+}
+
+.retour{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 120px;
+    margin-top: 30px;
+    text-decoration: none;
 }
