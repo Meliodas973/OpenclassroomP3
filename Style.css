@@ -27,7 +27,7 @@ a{
     text-decoration: none;
 }
 
-menu{
+nav{
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -173,41 +173,56 @@ footer{
 
 footer h2{
     color: #FFCA28;
+    margin: 7px;
 }
 
 
 /* Page1 */ 
 
+.logo {
+    font-size: 40px;
+    margin: 5px;
+}
 
-.page1{
+.menu-note {
     background-color: #fcdfdb;
     box-shadow: 0 0 13px 3px #ccc;
+}
+
+.menu{
+
     width: 30%;
     min-width: 300px;
     margin: auto;
     height: auto;
+    margin-bottom: 100px;
 }
 
-.page1 h4, .page1 p{
+.menu h2, .menu h3 {
+    text-align: center;
+}
+
+.menu section {
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.menu p {
+    display: flex;
+    justify-content: space-between;
     font-family: 'segoe print', 'Kalam', cursive;
-    color: black;
 }
 
-.la_note_enchantee{
-    font-family: "Devonshire","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+.restaurant-name {
     font-size: 30px;
+    text-align: center;
 }
 
-.cote_gauche{
-    font-size: 12px;
-    flex: 6;
-}
-
-.cote_droite{
-    flex: 1;
-    text-align: end;
-    font-size: 12px;
-    font-weight: bold;
+.menu-note h2{
+    margin: 1px;
+    color: black;
+    font-size: 50px;
 }
 
 h2{
@@ -219,24 +234,10 @@ h3{
     font-weight: 100;
 }
 
-h4{
-    text-align: center;
-    font-size: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-
-.article1, .article2, .article3, .article4{
-    display: flex;
-    flex-direction: row;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
 
 .la_note_enchantee{
     text-align: center;
+    font-family: "Devonshire","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
 }
 
 .sign_note{
