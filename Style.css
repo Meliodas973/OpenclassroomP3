@@ -165,7 +165,7 @@ footer{
     display: flex;
     justify-content: space-around;
     background-color: #569C87;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100%;
 }
@@ -191,9 +191,8 @@ footer h2{
 .menu{
     width: 30%;
     min-width: 300px;
-    margin: auto;
+    margin: 20px auto 40px auto;
     height: auto;
-    margin-bottom: 100px;
 }
 
 .menu h2, .menu h3 {
@@ -264,13 +263,14 @@ h3{
     box-shadow: 0 0 13px 3px #ccc;
     width: 30%;
     min-width: 300px;
-    margin: auto;
+    margin: 20px auto 40px;
+    padding: 20px 10px;
     height: auto;
 }
 
 .page2 p, .page2 h3{
     font-family: "Scheherazade","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     margin: 0;
 }
 
@@ -282,7 +282,6 @@ h3{
 
 .le_chic_a_la_française h2{
     text-align: center;
-    padding-top: 85px;
     font-family: "Redressed","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
 }
 
@@ -297,7 +296,8 @@ h3{
     box-shadow: 0 0 13px 3px #ccc;
     width: 30%;
     min-width: 300px;
-    margin: auto;
+    margin: 20px auto 40px;
+    padding: 20px 10px;
     height: auto;
 }
 
@@ -315,7 +315,6 @@ h3{
 
 .le_delice_des_papilles{
     text-align: center;
-    padding-top: 85px;
 }
 
 
@@ -327,7 +326,8 @@ h3{
     box-shadow: 0 0 13px 3px #ccc;
     width: 30%;
     min-width: 300px;
-    margin: auto;
+    margin: 20px auto 40px;
+    padding: 20px 10px;
     height: auto;
 }
 
@@ -338,7 +338,6 @@ h3{
 
 .la_palette_du_gout{
     text-align: center;
-    padding-top: 85px;
 }
 
 .page4 h2 {
