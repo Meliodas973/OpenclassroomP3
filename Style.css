@@ -105,8 +105,7 @@ img{
     width: 100%;
     background: linear-gradient(135deg, #d7832c 0%, #a97af3 100%);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    
+    -webkit-background-clip: text;  
 }
 
 .menu2 p{
@@ -190,7 +189,6 @@ footer h2{
 }
 
 .menu{
-
     width: 30%;
     min-width: 300px;
     margin: auto;
@@ -238,6 +236,7 @@ h3{
 .la_note_enchantee{
     text-align: center;
     font-family: "Devonshire","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    font-size: 30px;
 }
 
 .sign_note{
@@ -260,30 +259,34 @@ h3{
 
 /* page2 */
 
-.page2{
+.page2 {
     background-color: #fff5fe;
     box-shadow: 0 0 13px 3px #ccc;
     width: 30%;
     min-width: 300px;
     margin: auto;
-    height: 700px;
+    height: auto;
 }
 
-.le_chic_a_la_franaise{
+.page2 p, .page2 h3{
+    font-family: "Scheherazade","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.page2 section, .page2 h2{
+    background: linear-gradient(135deg, #d7832c 0%, #a97af3 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.le_chic_a_la_française h2{
+    text-align: center;
+    padding-top: 85px;
     font-family: "Redressed","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
-    background: linear-gradient(135deg, #d7832c 0%, #a97af3 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    padding-bottom: 30px;
-    padding-top: 40px;
 }
 
-.page2 h4, .page2 p{
-    font-family: "Abril Fatface","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
-    background: linear-gradient(135deg, #d7832c 0%, #a97af3 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
+
 
 
 /* page3 */
@@ -295,23 +298,24 @@ h3{
     width: 30%;
     min-width: 300px;
     margin: auto;
-    height: 700px;
+    height: auto;
+}
+
+.page3 p, .page3 h3{
+    font-size: 16px;
+    font-family: 'segoe print', 'Kalam', cursive;
+}
+
+.page3 h2{
+    font-family: "Dancing Script","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    background: linear-gradient(to right, #3F51B5 0%, #0083fb 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .le_delice_des_papilles{
-    font-family: "Dancing Script","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
-    background: linear-gradient(to right, #3F51B5 0%, #0083fb 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    padding-bottom: 30px;
-    padding-top: 40px;
-}
-
-.page3 h4, .page3 p{
-    font-family: "Dancing Script","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
-    background: linear-gradient(to right, #3F51B5 0%, #0083fb 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    text-align: center;
+    padding-top: 85px;
 }
 
 
@@ -324,30 +328,23 @@ h3{
     width: 30%;
     min-width: 300px;
     margin: auto;
-    height: 700px;
+    height: auto;
 }
+
+.page4 p, .page4 h3{
+    font-size: 16px;
+    font-family: 'segoe print', 'Kalam', cursive;
+}    
 
 .la_palette_du_gout{
-    font-family: "Kaushan Script","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;  
-    background: linear-gradient(to right, #3D923A 0%, #C2FF88 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    padding-bottom: 30px;
-    padding-top: 40px;
-}
-
-.page4 h4, .page4 p{
-    font-family: "Kaushan Script","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;  
-    background: linear-gradient(to right, #3D923A 0%, #C2FF88 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
-
-.retour{
-    display: flex;
-    justify-content: center;
     text-align: center;
-    padding-bottom: 120px;
-    margin-top: 30px;
-    text-decoration: none;
+    padding-top: 85px;
 }
+
+.page4 h2 {
+    font-family: "Kaushan Script","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;  
+    background: linear-gradient(to right, #3D923A 0%, #C2FF88 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
