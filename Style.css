@@ -4,8 +4,6 @@ body{
     font-family: "Titillium Web","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
 }
 
-
-
 header{
     background-color: #569C87 ;
     padding: 1px 3px 1px 3px;
@@ -13,7 +11,7 @@ header{
     text-align: center;
 }
 
-header h1{
+header p{
     color: #FFCA28;
     margin: auto;
 }
@@ -151,7 +149,7 @@ img{
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-bottom: 120px;
+    padding-bottom: 60px;
 }
 
 h2 span{
@@ -211,6 +209,7 @@ footer h2{
     font-family: 'segoe print', 'Kalam', cursive;
 }
 
+
 .restaurant-name {
     font-size: 30px;
     text-align: center;
@@ -255,6 +254,18 @@ h3{
     height: 40px;
 }
 
+.barre {
+    width: 30%;
+    height: 10%;
+}
+
+.barre_Page {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    font-family: 'segoe print', 'Kalam', cursive;
+}
 
 /* page2 */
 
