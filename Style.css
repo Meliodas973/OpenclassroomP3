@@ -207,6 +207,7 @@ footer h2{
     display: flex;
     justify-content: space-between;
     font-family: 'segoe print', 'Kalam', cursive;
+    font-size: 15px;
 }
 
 
@@ -274,7 +275,7 @@ h3{
     box-shadow: 0 0 13px 3px #ccc;
     width: 30%;
     min-width: 300px;
-    margin: 20px auto 40px;
+    margin: 20px auto 80px;
     padding: 20px 10px;
     height: auto;
 }
@@ -307,13 +308,13 @@ h3{
     box-shadow: 0 0 13px 3px #ccc;
     width: 30%;
     min-width: 300px;
-    margin: 20px auto 40px;
+    margin: 20px auto 95px;
     padding: 20px 10px;
     height: auto;
 }
 
 .page3 p, .page3 h3{
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'segoe print', 'Kalam', cursive;
 }
 
@@ -343,7 +344,7 @@ h3{
 }
 
 .page4 p, .page4 h3{
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'segoe print', 'Kalam', cursive;
 }    
 
