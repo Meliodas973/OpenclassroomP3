@@ -2,6 +2,9 @@ body{
     padding: 0;
     margin: 0;
     font-family: "Titillium Web","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -42,7 +45,6 @@ section{
 img{
     width: 45px;
     height: 50px;
-    padding-top: 25px;
 }
 
 .note1{
@@ -166,6 +168,7 @@ footer{
     position: sticky;
     bottom: 0;
     width: 100%;
+    margin-top: auto;
 }
 
 footer h2{
@@ -187,7 +190,7 @@ footer h2{
 }
 
 .menu{
-    width: 30%;
+    width: 35%;
     min-width: 300px;
     margin: 20px auto 40px auto;
     height: auto;
@@ -247,12 +250,19 @@ h3{
     margin-right: 40px;
 }
 
+
 .note2{
     padding-right: 10px;
     padding-top: 30px;
     margin-bottom: 50px;
     width: 35px;
     height: 40px;
+}
+
+.note3 {
+    width: 45px;
+    height: 50px;
+    padding-top: 25px;
 }
 
 .barre {
@@ -264,7 +274,7 @@ h3{
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: 'segoe print', 'Kalam', cursive;
 }
 
@@ -273,9 +283,9 @@ h3{
 .page2 {
     background-color: #fff5fe;
     box-shadow: 0 0 13px 3px #ccc;
-    width: 30%;
+    width: 35%;
     min-width: 300px;
-    margin: 20px auto 80px;
+    margin: 20px auto 125px;
     padding: 20px 10px;
     height: auto;
 }
@@ -298,17 +308,15 @@ h3{
 }
 
 
-
-
 /* page3 */
 
 
 .page3{
     background-color: #f9f9f9;
     box-shadow: 0 0 13px 3px #ccc;
-    width: 30%;
+    width: 35%;
     min-width: 300px;
-    margin: 20px auto 95px;
+    margin: 20px auto 120px;
     padding: 20px 10px;
     height: auto;
 }
@@ -336,9 +344,9 @@ h3{
 .page4{
     background-color: #fdfffd;
     box-shadow: 0 0 13px 3px #ccc;
-    width: 30%;
+    width: 35%;
     min-width: 300px;
-    margin: 20px auto 40px;
+    margin: 20px auto 110px;
     padding: 20px 10px;
     height: auto;
 }
