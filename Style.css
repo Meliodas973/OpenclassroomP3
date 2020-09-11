@@ -38,9 +38,11 @@ nav{
     text-align: center;
 }
 
+
 section{
     height: 600px;
 }
+
 
 img{
     width: 45px;
@@ -83,6 +85,11 @@ img{
 .bloc-menu{
     min-width: 300px;
 }
+
+.bloc-menu:hover {
+    transform: scale(1.5);
+}
+
 .menu1 p{
     font-family: "Balsamiq Sans","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
     color: black;
@@ -367,3 +374,88 @@ h3{
     -webkit-background-clip: text;
 }
 
+@media all and (min-width: 700px) and (max-width: 1200px){
+    header {
+        text-align: center;
+    }
+ 
+    body {
+        display: block;
+        width: 100%;
+    }
+
+    nav {
+        display: block;
+    }
+
+    .ligne1, .ligne2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bloc-menu {
+        min-width: 50px;
+    }
+
+    .menu_menu1, .menu_menu2, .menu_menu3, .menu_menu4 {
+        width: 50%;
+        padding: 70px;
+        margin: 50px;
+    }
+    
+    section {
+        height: 450px;
+    }
+
+    .prochainement { 
+        padding-bottom: 55px;
+    }
+}
+
+@media all and (min-width: 300px) and (max-width: 700px){
+    header {
+        width: 100%;
+    }
+
+    body {
+        display: block;
+        width: 100%;
+    }
+
+    nav {
+        display: block;
+    }
+
+    .ligne1, .ligne2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .note1 {
+        padding-top: 15px;
+    }
+
+    .bloc-menu {
+        min-width: 80px;
+        padding-top: 30px;
+    }
+
+    .menu_menu1, .menu_menu2, .menu_menu3, .menu_menu4 {
+        width: 40%;
+        padding: 70px;
+        margin: 40px;
+        text-align: center;
+    }
+    
+    section {
+        height: 300px;
+    }
+
+    .prochainement { 
+        padding-bottom: auto;
+    }
+    
+    footer h2, .prochainement h2{
+        font-size: 20px;
+    }
+}    
