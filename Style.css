@@ -38,6 +38,13 @@ nav{
     text-align: center;
 }
 
+section {
+    height: 500px;
+}
+
+h3 {
+    padding: 30px;
+}
 
 img{
     width: 45px;
@@ -79,6 +86,8 @@ img{
 
 .bloc-menu{
     min-width: 300px;
+    transition-property: transform; 
+    transition-duration: 400ms; 
 }
 
 .bloc-menu:hover {
@@ -103,11 +112,14 @@ img{
     box-shadow: 0 0 13px 3px #ccc;
     padding: 100px;
     margin: 80px;
-    font-family: "Redressed","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
-    width: 100%;
+    width: 100%;   
+}
+
+.menu_menu2 h2 {
     background: linear-gradient(135deg, #d7832c 0%, #a97af3 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;  
+    font-family: "Redressed","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
 }
 
 .menu2 p{
@@ -116,10 +128,13 @@ img{
 }
 
 .menu_menu3{
-    background-color: #f9f9f9;
+    background-color :#edefef;
     box-shadow: 0 0 13px 3px #ccc;
     padding: 100px;
     margin: 80px;
+}
+
+.menu_menu3 h2 {
     font-family: "Dancing Script","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
     width: 100%;
     background: linear-gradient(to right, #3F51B5 0%, #0083fb 100%);
@@ -137,6 +152,9 @@ img{
     box-shadow: 0 0 13px 3px #ccc;
     padding: 100px;
     margin: 80px;
+}
+
+.menu_menu4 h2 {
     font-family: "Kaushan Script","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;  
     width: 100%;
     background: linear-gradient(to right, #3D923A 0%, #C2FF88 100%);
@@ -170,6 +188,7 @@ footer{
     position: sticky;
     bottom: 0;
     width: 100%;
+    margin-top: auto;
 }    
 
 footer h2{
@@ -191,7 +210,7 @@ footer h2{
 }
 
 .menu{
-    width: 35%;
+    width: 50%;
     min-width: 300px;
     margin: 20px auto 40px auto;
     height: auto;
@@ -274,7 +293,7 @@ h3{
 .barre_Page {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
     font-family: 'segoe print', 'Kalam', cursive;
 }
@@ -284,7 +303,7 @@ h3{
 .page2 {
     background-color: #fff5fe;
     box-shadow: 0 0 13px 3px #ccc;
-    width: 35%;
+    width: 50%;
     min-width: 300px;
     margin: 20px auto 125px;
     padding: 20px 10px;
@@ -313,9 +332,9 @@ h3{
 
 
 .page3{
-    background-color: #f9f9f9;
+    background-color: #edefef;
     box-shadow: 0 0 13px 3px #ccc;
-    width: 35%;
+    width: 50%;
     min-width: 300px;
     margin: 20px auto 120px;
     padding: 20px 10px;
@@ -345,7 +364,7 @@ h3{
 .page4{
     background-color: #fdfffd;
     box-shadow: 0 0 13px 3px #ccc;
-    width: 35%;
+    width: 50%;
     min-width: 300px;
     margin: 20px auto 110px;
     padding: 20px 10px;
@@ -369,6 +388,7 @@ h3{
 }
 
 /** responsive "Ohmyfood" **/
+
 
 @media all and (min-width: 700px) and (max-width: 1200px){
     header {
@@ -394,7 +414,7 @@ h3{
     }
 
     .menu_menu1, .menu_menu2, .menu_menu3, .menu_menu4 {
-        width: 50%;
+        width: 40%;
         padding: 70px;
         margin: 50px;
     }
@@ -410,7 +430,7 @@ h3{
 /** responsive "note enchantée" **/
 
     .menu {
-        width: 90%;
+        width: 85%;
     }
 
     section h3 {
@@ -455,6 +475,11 @@ h3{
         padding-top: 30px;
     }
 
+    .menu p {
+        display: flex;
+        flex-direction: column;
+    }
+
     .menu_menu1, .menu_menu2, .menu_menu3, .menu_menu4 {
         width: 40%;
         padding: 70px;
@@ -464,6 +489,12 @@ h3{
     
     section {
         text-align: center;
+        height: 300px;
+    }
+
+    h3 {
+        padding-top: 30px;
+        padding-bottom: 5px;
     }
 
     .prochainement { 
@@ -477,15 +508,33 @@ h3{
 /** responsive note enchantée **/
 
     .menu {
-        width: 90%;
+        width: 30%;
+        margin: auto auto 20px auto;
     }
 
     .barre {
         display: none;
     }
 
-    h3 {
+    .page1 h3, .page3 h3, .page4 h3 {
         margin: auto;
+        font-size: 25px;
     }
 
+    .note2 {
+        margin-top: 45px;
+        padding-right: 1px;
+    }
+
+
+/** responsive chic française **/
+
+    .page2 h3 {
+     margin: auto;
+        font-size: 35px;
+    }
+
+    .page2 p {
+        font-size: 25px;
+    }
 }
