@@ -87,7 +87,7 @@ img{
 }
 
 .bloc-menu:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 .menu1 p{
@@ -175,8 +175,7 @@ footer{
     position: sticky;
     bottom: 0;
     width: 100%;
-    margin-top: auto;
-}
+}    
 
 footer h2{
     color: #FFCA28;
@@ -374,6 +373,8 @@ h3{
     -webkit-background-clip: text;
 }
 
+/** responsive "Ohmyfood" **/
+
 @media all and (min-width: 700px) and (max-width: 1200px){
     header {
         text-align: center;
@@ -410,6 +411,25 @@ h3{
     .prochainement { 
         padding-bottom: 55px;
     }
+
+/** responsive "note enchantée" **/
+
+    .menu {
+        width: 90%;
+    }
+
+    section h3 {
+        margin: 20px;
+    }
+
+
+
+/** responsive "chic française" **/
+
+    .page2 h3 {
+        margin: 20px;
+    }
+
 }
 
 @media all and (min-width: 300px) and (max-width: 700px){
@@ -448,7 +468,7 @@ h3{
     }
     
     section {
-        height: 300px;
+        text-align: center;
     }
 
     .prochainement { 
@@ -458,4 +478,19 @@ h3{
     footer h2, .prochainement h2{
         font-size: 20px;
     }
-}    
+
+/** responsive note enchantée **/
+
+    .menu {
+        width: 90%;
+    }
+
+    .barre {
+        display: none;
+    }
+
+    h3 {
+        margin: auto;
+    }
+
+}
