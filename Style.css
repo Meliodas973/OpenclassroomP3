@@ -42,10 +42,6 @@ section {
     height: 500px;
 }
 
-h3 {
-    padding: 30px;
-}
-
 img{
     width: 45px;
     height: 50px;
@@ -132,6 +128,10 @@ img{
     box-shadow: 0 0 13px 3px #ccc;
     padding: 100px;
     margin: 80px;
+}
+
+span {
+    font-weight: bold;
 }
 
 .menu_menu3 h2 {
@@ -249,16 +249,11 @@ h2{
     font-size: 30px;
 }
 
-h3{
-    margin: 0;
-    font-weight: 100;
-}
-
-
 .la_note_enchantee{
     text-align: center;
     font-family: "Devonshire","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
     font-size: 30px;
+    font-weight: 100;
 }
 
 .sign_note{
@@ -303,17 +298,23 @@ h3{
 .page2 {
     background-color: #fff5fe;
     box-shadow: 0 0 13px 3px #ccc;
-    width: 50%;
+    width: 60%;
     min-width: 300px;
     margin: 20px auto 125px;
     padding: 20px 10px;
     height: auto;
 }
 
-.page2 p, .page2 h3{
+.page2 p {
     font-family: "Scheherazade","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
     font-size: 25px;
     margin: 0;
+}
+
+.page2 h3 {
+    font-size: 35px;
+    margin-top: 60px;
+    font-family: "Scheherazade","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
 }
 
 .page2 section, .page2 h2{
@@ -423,21 +424,17 @@ h3{
         height: 450px;
     }
 
-    .prochainement { 
-        padding-bottom: 55px;
-    }
-
-/** responsive "note enchantée" **/
-
-    .menu {
-        width: 85%;
-    }
-
     section h3 {
         margin: 20px;
     }
 
+    .prochainement { 
+        padding-bottom: 55px;
+    }
 
+    .menu {
+        width: 85%;
+    }
 
 /** responsive "chic française" **/
 
@@ -498,7 +495,7 @@ h3{
     }
 
     .prochainement { 
-        padding-bottom: auto;
+        padding-bottom: 30px;
     }
     
     footer h2, .prochainement h2{
@@ -530,8 +527,8 @@ h3{
 /** responsive chic française **/
 
     .page2 h3 {
-     margin: auto;
-        font-size: 35px;
+        margin: auto;
+        font-size: 25px;
     }
 
     .page2 p {
