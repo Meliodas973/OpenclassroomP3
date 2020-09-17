@@ -191,11 +191,17 @@ footer{
     margin-top: auto;
 }    
 
+
 footer h2{
     color: #FFCA28;
     margin: 7px;
 }
 
+footer h2:hover {
+    transition-property: transform;
+    transition-duration:  400ms;
+    transform: translate(50%);
+}
 
 /* Page1 */ 
 
