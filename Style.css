@@ -88,6 +88,7 @@ img{
 
 .bloc-menu:hover {
     transform: scale(1.1);
+    opacity: 0.6;
 }
 
 .menu1 p{
@@ -199,8 +200,10 @@ footer h2{
 
 footer h2:hover {
     transition-property: transform;
-    transition-duration:  400ms;
+    /*transition-duration:  400ms;*/
     transform: translate(50%);
+    transform: scale(1.1);
+    opacity: 0.5;
 }
 
 /* Page1 */ 
