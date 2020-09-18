@@ -199,12 +199,29 @@ footer h2{
 }
 
 footer h2:hover {
-    transition-property: transform;
+    /*transition-property: transform;
     transition: transform 330ms ease-in-out;
     transform: translate(100%);
-    transition-duration: 1s;
-
+    transition-duration: 1s;*/
+    animation-duration: 1s;
+    animation-name: glissement;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-direction: normal;
+    animation-direction: reverse;
 }
+
+@keyframes glissement {
+    from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+  }
 
 
 
