@@ -82,13 +82,13 @@ img{
 
 .bloc-menu{
     min-width: 300px;
-    transition-property: transform; 
     transition-duration: 400ms; 
 }
 
 .bloc-menu:hover {
     transform: scale(1.1);
     opacity: 0.6;
+    transition: 400ms;
 }
 
 .menu1 p{
@@ -232,17 +232,52 @@ footer h2:hover {
     text-align: center;
 }
 
-.page1 h3 {
+.menu h3 {
     position: relative;
-    background: linear-gradient(to top, #3D1319 4px, transparent 5px) no-repeat;
-    background-size: 0 100%;
-    transition: background-size .3s;
-    color: #3D1319;
+    display: flex;
+    flex-direction: column;
 }
 
-.page1 h3:hover {
-    background-size: 100% 100%;
+/*Animation soulignement sur les pages de menus*/
+
+.menu h3::after {
+    content: " ";
+    width: 0%;
+    height: 3px;
+    transition: .3s;
 }
+
+.menu h3:hover::after {
+    width: 100%;
+    transition: .3s;
+}
+
+.page1 h3::after {
+    background-color: #3D1319;
+}
+
+.page2 h3::after {
+    background: linear-gradient(to right, #d7832c 0%, #a97af3 100%);
+}
+
+#entree h3::after {
+    background-color: #0228DD;
+}
+
+#plat h3::after {
+    background-color: #0E74F3;
+}
+
+#dessert h3::after {
+    background-color: #2CA1F8;
+}
+
+.page4 h3::after {
+    background-color: #45993E;
+}
+
+
+
 
 .page1 p {
     color: #3D1319;
@@ -341,17 +376,10 @@ h2{
 
 .page2 h3 {
     font-size: 35px;
-    margin-top: 60px;
     font-family: "Scheherazade","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
-    /**position: relative;
-    background: linear-gradient(to top,  #d7832c 0%, #a97af3 100% 4px, transparent 5px) no-repeat;
-    background-size: 0 100%;
-    transition: background-size .3s;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text; **/
 }
 
-.page2 section, .page2 h2{
+.page2 section, .page2 h2, .page2 h3{
     background: linear-gradient(135deg, #d7832c 0%, #a97af3 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
