@@ -77,7 +77,7 @@ img{
     margin: 80px;
     width: 100%;
     text-decoration: none;
-    color: black;
+    color: #3D1319;
 }
 
 .bloc-menu{
@@ -93,11 +93,11 @@ img{
 
 .menu1 p{
     font-family: "Balsamiq Sans","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
-    color: black;
+    color: #3D1319;
 }
 
 .menu1 h2{
-    color: black;
+    color: #3D1319;
 }
 
 .menu2, .menu3, .menu4{
@@ -199,29 +199,13 @@ footer h2{
 }
 
 footer h2:hover {
-    /*transition-property: transform;
-    transition: transform 330ms ease-in-out;
-    transform: translate(100%);
-    transition-duration: 1s;*/
-    animation-duration: 1s;
-    animation-name: glissement;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-direction: normal;
-    animation-direction: reverse;
+    animation: bounce 300ms ease-in-out infinite alternate;
 }
 
-@keyframes glissement {
-    from {
-        margin-left: 100%;
-        width: 300%;
-      }
-    
-      to {
-        margin-left: 0%;
-        width: 100%;
-      }
-  }
+@keyframes bounce{
+    from {transform: translateY(0);}
+    to   {transform: translateY(-5px);}
+}
 
 
 
@@ -248,6 +232,22 @@ footer h2:hover {
     text-align: center;
 }
 
+.page1 h3 {
+    position: relative;
+    background: linear-gradient(to top, #3D1319 4px, transparent 5px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+    color: #3D1319;
+}
+
+.page1 h3:hover {
+    background-size: 100% 100%;
+}
+
+.page1 p {
+    color: #3D1319;
+}
+
 .menu section {
     width: 90%;
     height: auto;
@@ -269,7 +269,7 @@ footer h2:hover {
 
 .menu-note h2{
     margin: 1px;
-    color: black;
+    color: #3D1319;
     font-size: 50px;
 }
 
@@ -343,6 +343,12 @@ h2{
     font-size: 35px;
     margin-top: 60px;
     font-family: "Scheherazade","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+    /**position: relative;
+    background: linear-gradient(to top,  #d7832c 0%, #a97af3 100% 4px, transparent 5px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; **/
 }
 
 .page2 section, .page2 h2{
