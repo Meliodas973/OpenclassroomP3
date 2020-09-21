@@ -82,7 +82,8 @@ img{
 
 .bloc-menu{
     min-width: 300px;
-    transition-duration: 400ms; 
+    transition-duration: 700ms; /*animation qui tombe du haut sur les bloc menu 2, 3 et 4*/
+    transition-property: transform; /*en parler au mentor pour voir (conseillé d'enlever par le mentor)*/
 }
 
 .bloc-menu:hover {
@@ -206,7 +207,6 @@ footer h2:hover {
     from {transform: translateY(0);}
     to   {transform: translateY(-5px);}
 }
-
 
 
 /* Page1 */ 
