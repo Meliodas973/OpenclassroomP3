@@ -12,14 +12,13 @@ body{
 
 header{
     background-color: #569C87 ;
-    padding: 1px 3px 1px 3px;
-    font-size: 30px;
     text-align: center;
 }
 
-header p{
-    color: #FFCA28;
-    margin: auto;
+.logo {
+    width: 15%;
+    height: auto;
+    padding-top: 5px;
 }
 
 
@@ -483,6 +482,10 @@ h2{
     header {
         text-align: center;
     }
+
+    .logo {
+        width: 25%;
+    }
  
     body {
         display: block;
@@ -527,7 +530,6 @@ h2{
     .page2 h3 {
         margin: 20px;
     }
-
 }
 
 
@@ -536,6 +538,10 @@ h2{
 @media all and (min-width: 300px) and (max-width: 700px){
     header {
         width: 100%;
+    }
+
+    .logo {
+        width: 35%;
     }
 
     body {
