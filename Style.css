@@ -174,19 +174,26 @@ span {
     color: #3d9339;
 }
 
-.prochainement{
+.clignotant {
+    background-color: #579c87;
+    width: 30%;
+    border-radius: .6rem;
     display: flex;
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 60px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto 40px auto;
+    padding: 3px 3px;
+
 }
 
-h2 span{
-    background-color: #569C87;
-    border-radius: 15px;
-    padding: 10px 35px 10px 35px;
-    color: #FFCA28;
+.clignotant h2 {
+    color: #fdcb46;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
 }
+
 
 /* footer*/
 
@@ -252,6 +259,38 @@ footer h2:hover {
 @keyframes bounce{
     from {transform: translateY(0);}
     to   {transform: translateY(-5px);}
+}
+
+.animation {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background-color: #fdcb46;
+    animation: opacity 1s cubic-bezier(0.65, 0.15, 0.92, 0.46) backwards infinite;
+}
+
+.point1 {
+    animation-delay: .3s;
+}
+
+.point2 {
+    animation-delay: .5s;
+}
+
+.point3 {
+    animation-delay: .8s;
+}
+
+@keyframes opacity {
+    0% {opacity: 0
+    animation-timing-function: cubic-bezier(0.50, 0.30, 0.87, 0.6);
+    }
+    65% {opacity: 1;
+        animation-timing-function: cubic-bezier(1, 0, 0.99, 0.63);
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 
@@ -638,5 +677,13 @@ h2{
     article p {
         font-size: 20px;
         padding: 10px;
+    }
+
+    .clignotant {
+        width: 60%;
+    }
+    
+    .clignotant h2 {
+        font-size: 20px;
     }
 }
