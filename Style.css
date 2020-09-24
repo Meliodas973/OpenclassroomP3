@@ -85,17 +85,6 @@ img{
     color: #3D1319;
 }
 
-.bloc-menu{
-    min-width: 300px;
-    transition-duration: 700ms; /*animation qui tombe du haut sur les bloc menu 2, 3 et 4*/
-    transition-property: transform; /*en parler au mentor pour voir (conseillé d'enlever par le mentor)*/
-}
-
-.bloc-menu:hover {
-    transform: scale(1.1);
-    opacity: 0.6;
-    transition: 400ms;
-}
 
 .menu1 p{
     font-family: "Balsamiq Sans","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
@@ -119,7 +108,7 @@ img{
 }
 
 .menu_menu2 h2 {
-    background: linear-gradient(135deg, #d7832c 0%, #a97af3 100%);
+    background: linear-gradient(to right, #d7832c 10%, #a97af3 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;  
     font-family: "Redressed","Trebuchet MS","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
@@ -216,6 +205,19 @@ footer h2{
 
 /*Animation soulignement sur les pages de menus*/
 
+.bloc-menu{
+    min-width: 300px;
+    transition-duration: 700ms; /*animation qui tombe du haut sur les bloc menu 2, 3 et 4*/
+    transition-property: transform; /*en parler au mentor pour voir (conseillé d'enlever par le mentor)*/
+}    
+
+.bloc-menu:hover {
+    transform: scale(1.1);
+    opacity: 0.6;
+    transition: 400ms;
+}    
+
+
 .menu h3::after {
     content: " ";
     width: 0%;
@@ -252,6 +254,7 @@ footer h2{
     background-color: #45993E;
 }
 
+
 footer h2:hover {
     animation: bounce 300ms ease-in-out infinite alternate;
 }
@@ -261,12 +264,13 @@ footer h2:hover {
     to   {transform: translateY(-5px);}
 }
 
+
 .animation {
     width: 1vw;
     height: 1vw;
     border-radius: 50%;
     background-color: #fdcb46;
-    animation: opacity 1s cubic-bezier(0.65, 0.15, 0.92, 0.46) backwards infinite;
+    animation: opacity 1s ease-out backwards infinite;
 }
 
 .point1 {
@@ -278,15 +282,13 @@ footer h2:hover {
 }
 
 .point3 {
-    animation-delay: .8s;
+    animation-delay: .7s;
 }
 
 @keyframes opacity {
-    0% {opacity: 0
-    animation-timing-function: cubic-bezier(0.50, 0.30, 0.87, 0.6);
+    0% {opacity: 0;
     }
-    65% {opacity: 1;
-        animation-timing-function: cubic-bezier(1, 0, 0.99, 0.63);
+    50% {opacity: 1;
     }
     100% {
         opacity: 0;
