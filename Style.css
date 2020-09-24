@@ -560,16 +560,20 @@ h2{
         margin: 20px;
     }
 
-    .prochainement { 
-        padding-bottom: 55px;
-    }
-
     .menu {
         width: 85%;
     }
 
     .page2 h3 {
         margin: 20px;
+    }
+
+    .clignotant {
+        width: 30%;
+    }
+    
+    .clignotant h2 {
+        font-size: 20px;
     }
 }
 
@@ -630,11 +634,8 @@ h2{
         padding-bottom: 5px;
     }
 
-    .prochainement { 
-        padding-bottom: 30px;
-    }
     
-    footer h2, .prochainement h2{
+    footer h2 {
         font-size: 20px;
     }
 
@@ -680,6 +681,12 @@ h2{
         font-size: 20px;
         padding: 10px;
     }
+
+    .animation {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+    }    
 
     .clignotant {
         width: 60%;
