@@ -270,7 +270,7 @@ footer h2:hover {
     height: 1vw;
     border-radius: 50%;
     background-color: #fdcb46;
-    animation: opacity 1s ease-out backwards infinite;
+    animation: opacity 1s linear infinite;
 }
 
 .point1 {
@@ -290,8 +290,7 @@ footer h2:hover {
     }
     50% {opacity: 1;
     }
-    100% {
-        opacity: 0;
+    100% {opacity: 0;
     }
 }
 
