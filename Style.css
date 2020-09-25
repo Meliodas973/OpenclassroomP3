@@ -266,8 +266,8 @@ footer h2:hover {
 
 
 .animation {
-    width: 1vw;
-    height: 1vw;
+    width: 0.8vw;
+    height: 0.8vw;
     border-radius: 50%;
     background-color: #fdcb46;
     animation: opacity 1s linear infinite;
