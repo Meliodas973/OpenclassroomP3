@@ -207,8 +207,8 @@ footer h2{
 
 .bloc-menu{
     min-width: 300px;
-    transition-duration: 700ms; /*animation qui tombe du haut sur les bloc menu 2, 3 et 4*/
-    transition-property: transform; /*en parler au mentor pour voir (conseillé d'enlever par le mentor)*/
+    transition-duration: 700ms; 
+    transition-property: transform;
 }    
 
 .bloc-menu:hover {
@@ -571,6 +571,11 @@ h2{
 
     .page2 h3 {
         margin: 20px;
+        font-size: 25px;
+    }
+
+    .page2 p {
+        font-size: 20px;
     }
 
     .clignotant {
@@ -666,7 +671,7 @@ h2{
     }
 
     .page2 p {
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .mentions_legales {
