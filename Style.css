@@ -588,7 +588,7 @@ h2{
     }
 
     .logo {
-        width: 25%;
+        width: 40%;
     }
  
     body {
@@ -610,7 +610,7 @@ h2{
     }
 
     .menu_menu1, .menu_menu2, .menu_menu3, .menu_menu4 {
-        width: 40%;
+        width: 80%;
         padding: 70px;
         margin: 50px;
     }
@@ -650,7 +650,7 @@ h2{
     }
 
     .logo {
-        width: 35%;
+        width: 60%;
     }
 
     body {
@@ -682,7 +682,7 @@ h2{
     }
 
     .menu_menu1, .menu_menu2, .menu_menu3, .menu_menu4 {
-        width: 40%;
+        width: 90%;
         padding: 70px;
         margin: 40px;
         text-align: center;
