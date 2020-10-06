@@ -215,12 +215,11 @@ footer h2{
     transition-property: transform;
 }    
 
-.bloc-menu:hover {
-    transform: scale(1.1);
-    opacity: 0.6;
+.bloc-menu:hover { 
     transition: 400ms;
+    opacity: 0.6;
+    transform: scale(1.1);
 }    
-
 
 .menu h3::after {
     content: " ";
