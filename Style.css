@@ -87,6 +87,7 @@ img{
     width: 100%;
     text-decoration: none;
     color: #3D1319;
+    overflow: hidden;
 }
 
 
@@ -207,19 +208,41 @@ footer h2{
 }
 
 
-/*Animation soulignement sur les pages de menus*/
+/*Animation sur les menus*/
 
 .bloc-menu{
     min-width: 300px;
     transition-duration: 700ms; 
-    transition-property: transform;
+    transition-property: transform; 
 }    
 
-.bloc-menu:hover { 
+.menu_menu1:hover .menu1 { 
+    transform: scale(1.1);
     transition: 400ms;
     opacity: 0.6;
-    transform: scale(1.1);
 }    
+
+.menu_menu2:hover .menu2 { 
+    transform: scale(1.1);
+    transition: 400ms;
+    opacity: 0.6;
+}   
+
+.menu_menu3:hover .menu3 { 
+    transform: scale(1.1);
+    transition: 400ms;
+    opacity: 0.6;
+}
+
+.menu_menu4:hover .menu4 { 
+    transform: scale(1.1);
+    transition: 400ms;
+    opacity: 0.6;
+} 
+
+
+/*Animation soulignement sur les pages de menus*/
+
 
 .menu h3::after {
     content: " ";
@@ -258,6 +281,8 @@ footer h2{
 }
 
 
+/*Animation footer*/
+
 footer h2:hover {
     animation: bounce 300ms ease-in-out infinite alternate;
 }
@@ -267,6 +292,8 @@ footer h2:hover {
     to   {transform: translateY(-5px);}
 }
 
+
+/*Animation auto prochainement*/
 
 .animation {
     width: 0.8vw;
